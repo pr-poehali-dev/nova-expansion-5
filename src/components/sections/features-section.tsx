@@ -62,8 +62,8 @@ function SpeedIndicator() {
 
   return (
     <div className="flex flex-col items-center justify-center h-full gap-4">
-      <span className="text-3xl md:text-4xl font-sans font-medium text-foreground">100ms</span>
-      <span className="text-sm text-muted-foreground">Загрузка</span>
+      <span className="text-3xl md:text-4xl font-sans font-medium text-foreground">1/1000</span>
+      <span className="text-sm text-muted-foreground">Выдержка</span>
       <div className="w-full max-w-[120px] h-1.5 bg-foreground/10 rounded-full overflow-hidden">
         <motion.div
           className="h-full bg-primary rounded-full"
@@ -86,7 +86,7 @@ export function FeaturesSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Возможности
+          Что я снимаю
         </motion.p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -105,8 +105,8 @@ export function FeaturesSection() {
               <TypeTester />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-xl text-foreground">Типографика</h3>
-              <p className="text-muted-foreground text-sm mt-1">Красивые шрифты, которые идеально масштабируются.</p>
+              <h3 className="font-serif text-xl text-foreground">Портреты</h3>
+              <p className="text-muted-foreground text-sm mt-1">Эмоции и характер в каждом кадре, мягкий естественный свет.</p>
             </div>
           </motion.div>
 
@@ -125,8 +125,8 @@ export function FeaturesSection() {
               <LayoutAnimation />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-xl text-foreground">Макеты</h3>
-              <p className="text-muted-foreground text-sm mt-1">Гибкие сетки, которые адаптируются под контент.</p>
+              <h3 className="font-serif text-xl text-foreground">Композиция</h3>
+              <p className="text-muted-foreground text-sm mt-1">Игра форм, линий и пространства в каждом снимке.</p>
             </div>
           </motion.div>
 
@@ -145,8 +145,8 @@ export function FeaturesSection() {
               <SpeedIndicator />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-xl text-foreground">Скорость</h3>
-              <p className="text-muted-foreground text-sm mt-1">Молниеносная загрузка страниц для ваших гостей.</p>
+              <h3 className="font-serif text-xl text-foreground">Репортаж</h3>
+              <p className="text-muted-foreground text-sm mt-1">Поймать момент за долю секунды, пока он не исчез.</p>
             </div>
           </motion.div>
         </div>
