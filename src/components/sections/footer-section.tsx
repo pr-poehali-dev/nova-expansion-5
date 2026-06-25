@@ -4,8 +4,8 @@ import { ArrowRight } from "lucide-react"
 
 const footerLinks = [
   { label: "Обо мне", href: "/about" },
-  { label: "Портфолио", href: "/portfolio" },
-  { label: "Серии", href: "/series" },
+  { label: "Результаты", href: "/portfolio" },
+  { label: "Направления", href: "/series" },
   { label: "Контакты", href: "/contact" },
 ]
 
@@ -29,7 +29,7 @@ export function FooterSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              OBSCURA.
+              VERONIKA.
             </motion.h2>
 
             <nav className="flex flex-wrap gap-6 mt-8">
@@ -52,7 +52,7 @@ export function FooterSection() {
 
           {/* Email signup */}
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-            <p className="text-muted-foreground text-sm mb-4">Подпишитесь, чтобы первыми видеть новые фотосерии.</p>
+            <p className="text-muted-foreground text-sm mb-4">Подпишитесь, чтобы следить за тренировками и результатами.</p>
             <form onSubmit={(e) => e.preventDefault()} className="flex gap-2">
               <input
                 type="email"
@@ -73,7 +73,7 @@ export function FooterSection() {
         </div>
 
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-muted-foreground text-sm">2025 OBSCURA. Все права защищены.</p>
+          <p className="text-muted-foreground text-sm">2025 VERONIKA. Все права защищены.</p>
           <div className="flex gap-6">
             <a href="#" className="text-muted-foreground hover:text-foreground text-sm" data-clickable>
               Конфиденциальность

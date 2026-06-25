@@ -4,21 +4,21 @@ import { CarouselSection } from "@/components/sections/carousel-section"
 
 const series = [
   {
-    title: "Городские рассветы",
-    count: "18 кадров",
-    text: "Тихие улицы, первые лучи и пустые площади до пробуждения города.",
-    src: "/minimal-architecture-portfolio-with-clean-lines.jpg",
-  },
-  {
-    title: "Портреты людей",
-    count: "24 кадра",
-    text: "Лица, взгляды и эмоции случайных прохожих и близких людей.",
+    title: "Пауэрлифтинг",
+    count: "Присед · Жим · Тяга",
+    text: "Три базовых движения, которые раскрывают настоящую силу. Я тренируюсь в каждом из них и постепенно увеличиваю личные рекорды.",
     src: "/fashion-model-editorial-portrait-dramatic-lighting.jpg",
   },
   {
-    title: "Природа и тишина",
-    count: "30 кадров",
-    text: "Туман, лес и вода — моменты, где время как будто замирает.",
+    title: "Тяжёлая атлетика",
+    count: "Рывок · Толчок",
+    text: "Техничный и взрывной спорт, где важна каждая деталь. Тяжёлая атлетика научила меня концентрации и уважению к штанге.",
+    src: "/modern-architecture-building-exterior-minimal.jpg",
+  },
+  {
+    title: "Соревнования",
+    count: "Помост · Результат · Победа",
+    text: "Выход на помост — это особое чувство. Всё, что наработано на тренировках, проявляется в один момент. Я люблю это.",
     src: "/interior-design-minimalist-living-room-natural-lig.jpg",
   },
 ]
@@ -33,7 +33,7 @@ const Series = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            Серии
+            Направления
           </motion.p>
           <motion.h1
             className="text-4xl md:text-6xl font-serif text-foreground max-w-3xl leading-tight"
@@ -41,7 +41,7 @@ const Series = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
           >
-            Тематические <em className="italic">фотосерии</em>.
+            Чем я <em className="italic">живу</em> в спорте.
           </motion.h1>
         </div>
       </section>

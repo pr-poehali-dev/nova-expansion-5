@@ -4,9 +4,9 @@ import { PageLayout } from "@/components/page-layout"
 import Icon from "@/components/ui/icon"
 
 const contacts = [
-  { icon: "Mail", label: "Почта", value: "hello@obscura.photo" },
-  { icon: "Instagram", label: "Instagram", value: "@obscura.frames" },
-  { icon: "MapPin", label: "Город", value: "Санкт-Петербург" },
+  { icon: "Mail", label: "Почта", value: "veronika@sport.ru" },
+  { icon: "Instagram", label: "Instagram", value: "@veronika.lifts" },
+  { icon: "MapPin", label: "Город", value: "Россия" },
 ]
 
 const Contact = () => {
@@ -29,14 +29,14 @@ const Contact = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
           >
-            Давайте <em className="italic">снимать</em> вместе.
+            Пишите — всегда <em className="italic">на связи</em>.
           </motion.h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
             <div className="space-y-6">
               <p className="text-muted-foreground leading-relaxed">
-                Хотите фотосессию, совместную съёмку или просто поговорить о фотографии?
-                Напишите мне — я открыт к новым историям и кадрам.
+                Хотите задать вопрос о тренировках, пауэрлифтинге или тяжёлой атлетике?
+                Или просто поддержать? Пишите — я рада каждому сообщению.
               </p>
               {contacts.map((c) => (
                 <div key={c.label} className="flex items-center gap-4">

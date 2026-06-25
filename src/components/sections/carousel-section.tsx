@@ -22,7 +22,7 @@ export function CarouselSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Моменты, пойманные в движении.
+          Сила рождается в движении.
         </motion.h2>
       </div>
 

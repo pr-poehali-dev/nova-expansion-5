@@ -4,8 +4,8 @@ import { motion } from "framer-motion"
 const links = [
   { label: "Главная", href: "/" },
   { label: "Обо мне", href: "/about" },
-  { label: "Портфолио", href: "/portfolio" },
-  { label: "Серии", href: "/series" },
+  { label: "Результаты", href: "/portfolio" },
+  { label: "Направления", href: "/series" },
   { label: "Контакты", href: "/contact" },
 ]
 
@@ -21,7 +21,7 @@ export function Navigation() {
     >
       <div className="max-w-6xl mx-auto flex items-center justify-between rounded-full border border-border/60 bg-background/70 backdrop-blur-xl px-6 py-3">
         <Link to="/" className="text-xl font-serif tracking-tight text-foreground" data-clickable>
-          OBSCURA<span className="text-primary">.</span>
+          VERONIKA<span className="text-primary">.</span>
         </Link>
 
         <nav className="flex items-center gap-1 md:gap-2">
